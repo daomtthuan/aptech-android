@@ -1,0 +1,32 @@
+<resources>
+  <string name="app_name">Aptech Android</string>
+
+  <string name="quadraticequation_app_name">Quadratic Equation</string>
+  <string name="quadraticequation_enter_value">Enter value</string>
+  <string name="quadraticequation_calculate">Calculate</string>
+  <string name="quadraticequation_title">Calculate quadratic equation solutions</string>
+  <string name="quadraticequation_sub_title"><![CDATA[ax<sup><small>2</small></sup> + bx + c = 0]]></string>
+  <string name="quadraticequation_no_solutions">No solutions</string>
+  <string name="quadraticequation_lots_of_solutions">Lots of solutions</string>
+
+  <string name="studentlist_app_name">Student List</string>
+  <string name="studentlist_avatar">Avatar</string>
+
+  <string name="carddistribution_app_name">Card Distribution</string>
+  <string name="carddistribution_shuffle">Shuffle</string>
+  <string name="carddistribution_distribute">Distribute</string>
+  <string name="carddistribution_card1">Card 1</string>
+  <string name="carddistribution_card2">Card 2</string>
+  <string name="carddistribution_card3">Card 3</string>
+
+  <string name="bookmanagement_add">Add</string>
+  <string name="bookmanagement_app_name">Book Management</string>
+  <string name="bookmanagement_id">ID</string>
+  <string name="bookmanagement_title">Title</string>
+  <string name="bookmanagement_author">Author</string>
+  <string name="bookmanagement_title_not_empty">Title not empty</string>
+  <string name="bookmanagement_success">Success</string>
+  <string name="bookmanagement_edit">Edit</string>
+  <string name="bookmanagement_unknown">Unknown</string>
+  <string name="bookmanagement_confirm_remove">Do you want to remove?</string>
+</resources>

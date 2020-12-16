@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="16dp"
+      android:contentDescription="@string/studentlist_avatar"
+      android:src="@mipmap/ic_launcher" />
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <TableRow>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="4dp"
+          android:layout_marginBottom="4dp"
+          android:text="@string/bookmanagement_id"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/label_id"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="4dp"
+          android:text="Id"
+          android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="4dp"
+          android:layout_marginBottom="4dp"
+          android:text="@string/bookmanagement_title"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/label_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="4dp"
+          android:text="Title"
+          android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="4dp"
+          android:layout_marginBottom="4dp"
+          android:text="@string/bookmanagement_author"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/label_author"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Author"
+          android:textSize="16sp" />
+
+    </TableRow>
+
+  </TableLayout>
+
+</LinearLayout>

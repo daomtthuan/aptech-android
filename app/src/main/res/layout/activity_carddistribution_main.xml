@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carddistribution.activity.CardDistributionMainActivity">
+
+  <LinearLayout
+      android:id="@+id/layout_cards"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_margin="16dp"
+      app:layout_constraintHeight_percent="0.24"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/image_card_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/carddistribution_card1"
+        android:src="@drawable/carddistribution_back" />
+
+    <ImageView
+        android:id="@+id/image_card_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/carddistribution_card2"
+        android:src="@drawable/carddistribution_back" />
+
+    <ImageView
+        android:id="@+id/image_card_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/carddistribution_card3"
+        android:src="@drawable/carddistribution_back" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/layout_buttons"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/layout_cards">
+
+    <Button
+        android:id="@+id/button_distribute"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:text="@string/carddistribution_distribute"
+        android:textSize="16sp"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/button_shuffle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:text="@string/carddistribution_shuffle"
+        android:textSize="16sp"
+        tools:ignore="ButtonStyle" />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/label_result"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:textSize="16sp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/layout_buttons" />
+</androidx.constraintlayout.widget.ConstraintLayout>
